@@ -1,0 +1,179 @@
+
+
+
+h1{
+	font-family: arial;
+	color: red;
+}
+
+body{
+     background-image: linear-gradient(90deg, lightpink, red);
+     font-family:sans-serif;
+     color: white;
+}
+
+.container{
+     width: 1024px;
+     min-height: 300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+header{
+	min-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-family:'playfair display',serif;
+    color: black;
+    line-height: 20px;
+}
+main2{
+	padding: 50px;
+}
+
+.wrapper{
+	padding:10px;
+}
+
+.cards{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1{
+	background-image: url("C:/SwathiProject/project 2/images/bus.jpg");
+	height: 250px;
+	width: 30.3%;
+	background-size: cover;
+	background-position: right;
+    border-radius: 5px;
+}
+
+.card2{
+	background-image: url("C:/SwathiProject/project 2/images/download.jpg");
+	height: 250px;
+	width: 30.3%;
+	background-size: cover;
+	border-radius: 5px;
+}
+
+.card3{
+	background-image: url("C:\SwathiProject/project 2/images/spaner.png");
+	width: 30.3%;
+	height: 250px;
+	background-size: cover;
+    border-radius: 5px;
+}
+
+.herobox1{
+	width: 70%;
+}
+
+.herobox1 a{
+	text-decoration: none;
+}
+
+.herobox2{
+	background-image: url("C:/SwathiProject/project 2/images/download.jpg");
+	width: 30%;
+	height: 250px;
+	background-size: cover;
+    border-radius: 5px;
+}
+
+
+.logo{
+     opacity: 0.5;
+}
+
+nav a{
+	font-size: 20px;
+	font-family:'playfair display',serif;
+   	text-decoration:none;
+   	color: white;
+   	font-family:'playfair display',serif;
+
+
+}
+.cards h2{
+	color:red;
+	font-family:'playfair display',serif;
+	padding: 5px;
+}
+.cards p{
+	color: peru;
+	padding: 20px;
+}
+
+.navbutton{
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+	border: 2px solid tomato;
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+	background-color: lightpink;
+	display: inline-block;
+	position: relative;
+}
+.navbutton:hover{
+	background-color: lightgray;
+	transition-duration: 1s;
+}
+
+.list-of-contact{
+    display: none;
+	position: absolute;
+	z-index: 1;
+	margin-top: 10px;
+}
+
+
+.navbutton:hover .list-of-contact{
+	display: block;
+	border: 2px solid red;
+    background-color: red;
+    transition-duration: 3s;}
+
+.list-of-contact .navbutton:hover{
+    background-color: lightgray;
+    }
+ 
+.mess{
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.test{	
+	width: 40%;
+	padding: 30px;
+	margin: 30px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 5px	;
+	
+}
+.test :last-child{
+	font-size: 12px;
+	color: black;
+	
+}
+input[type=text] ,textarea {
+padding: 10px;
+width: 100%;
+font-family: serif;
+font-size: 20px;
+}
